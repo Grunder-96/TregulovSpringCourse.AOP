@@ -13,6 +13,8 @@ public class Test1 {
 //		uniLibrary.returnBook();
 		uniLibrary.getMagazine();
 //		schoolLibrary.getBook();
+		uniLibrary.returnBook();
+		uniLibrary.returnMagazine();
 		context.close();
 	}
 }
