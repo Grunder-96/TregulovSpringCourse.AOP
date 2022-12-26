@@ -76,7 +76,7 @@ public class LoggingAspect {
 					System.out.println("автор - " + myBook.getAuthor());
 					System.out.println("год публикации - " + myBook.getYearOfPublication());
 				} else if (arg instanceof String) {
-					System.out.println("книгу в библиотеку добавил пользователь " + arg);
+					System.out.println("книгу в библиотеку добавляет пользователь " + arg);
 				}
 			}
 		} 
